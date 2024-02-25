@@ -17,6 +17,28 @@
 
 
 
+        macro drawman
+        ld a, J1
+        ld (which_bitmap), a
+        ld a, 32
+        ld (bitmap_x), a
+        ld a, 64
+        ld (bitmap_y), a
+        endmacro 
+
+
+;	macro draw_bitmap wbm, bmx, bmy
+;		.db 23, 27, 0		;select bitmap
+;                .db wbm 	;bitmap number
+;		.db 25, $ED	;plot bitmap at x, y
+;	        .dw bmx
+;	        .dw bmy
+;	endmacro
+
+
+
+
+
 
 
 

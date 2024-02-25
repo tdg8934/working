@@ -925,6 +925,7 @@ data_start:
  ;   CREATE_BITMAP JLF1,    16, 16, "JLF1.DATA"
   ;  CREATE_BITMAP JLF2,    16, 16, "JLF2.DATA"
    ; CREATE_BITMAP JLF3,    16, 16, "JLF3.DATA"
+
 data_end:
 
 ; ---------------------------------------------
